@@ -4,8 +4,8 @@ import React from "react";
 const Blog = () => {
   const router = useRouter();
   const { slug } = router.query;
-
-  return <div>{slug}</div>;
+  console.log(slug);
+  return <div>this one is slug page from the blog{slug}</div>;
 };
 
 export default Blog;
